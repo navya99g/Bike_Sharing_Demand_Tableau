@@ -1,48 +1,78 @@
-# Bike Sharing Demand Analysis Dashboard (Tableau)
+# Bike Rental Analysis Dashboard (Tableau)
 
 ## Project Overview
-This project presents an interactive Tableau dashboard analysing bike-sharing demand patterns to support data-driven decisions related to operations, demand forecasting, and resource allocation.
 
-The dashboard visualises trends across time, weather conditions, and user types to identify factors influencing bike rental demand.
+This project analyses bike rental usage patterns using Tableau to uncover trends across **time, seasonality, weather conditions, and user behaviour.** 
+
+The goal is to provide **actionable insights** that can help optimise bike availability, operations, and marketing strategies.
+
+---
+
+## Objectives
+
+- Analyse overall bike rental demand and peak usage patterns
+- Understand how season, weather, holidays, and working days affect rentals
+- Identify hourly and monthly trends to support operational planning
+- Build an interactive dashboard for business users
 
 ---
 
 ## Dataset Description
-The dataset contains bike-sharing usage records along with weather and temporal features such as:
-- Date and time
-- Temperature and humidity
+The dataset contains bike-rental usage records along with weather and temporal features such as:
+- Date & time
+- Season
 - Weather conditions
-- User count (casual and registered)
-
-The dataset is included for learning and portfolio demonstration purposes.
+- Rental counts
 
 ---
 
-## Project Objectives
-- Analyse bike-sharing demand trends over time
-- Understand the impact of weather and seasonality on demand
-- Compare usage patterns between casual and registered users
-- Identify peak demand periods
+## KPIs
+- Total Bike Rentals: 617K
+- Average Rentals per Hour: 29 bikes
+- Peak Daily Rentals: 3,556 rides
 
 ---
 
-## Dashboard Features
-- Time-series analysis of bike rentals
-- Demand comparison by season and weather conditions
-- User segmentation analysis (casual vs registered)
-- Interactive filters for date, season, and weather
+## Dashboard Components
+
+1. **Monthly Trend**
+- Shows seasonal growth and decline in rentals
+- Peak demand observed during summer months
+
+2. **Hourly Heatmap**
+- Highlights peak rental hours
+- Highest rentals during working hours (morning & evening commute)
+
+3. **Weather Impact Analysis**
+- Clear weather drives the highest rentals
+- Snow and adverse weather significantly reduce demand
+
+4. **Seasonal Comparison**
+- Summer has the highest bike rental volume
+- Winter shows the lowest demand
+
+5. **Interactive Filters**
+- Season
+- Holiday vs Non-Holiday
+- Working Day
+- Rental Metric Selector
+
+---
+
+## Key Insights
+- Bike rentals peak during working hours, indicating strong commuter usage
+- **Summer season** contributes the highest rental volume
+- Poor weather conditions lead to a sharp drop in rentals
+- Clear monthly seasonality suggests the need for **dynamic bike allocation**
 
 ---
 
 ## Tools Used
 - Tableau
 - Data Visualisation
-- Dashboard Design
-- Business Intelligence
+- KPI Design
+- Time-Series Analysis
 
 ---
 
-## Key Insights
-- Bike demand peaks during clear weather and moderate temperatures
-- Registered users show more consistent usage patterns compared to casual users
-- Demand increases significantly during working days and peak hours
+## Project Link
