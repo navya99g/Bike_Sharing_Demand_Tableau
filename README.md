@@ -73,6 +73,4 @@ The dataset contains bike-rental usage records along with weather and temporal f
 - KPI Design
 - Time-Series Analysis
 
----
 
-## Project Link
